@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.415 sec - in TestSuite
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 18, Time elapsed: 0.983 sec <<< FAILURE! - in TestSuite
+closeBrowser(CrossBrowser.CrossBrowser.CrossBrows)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at CrossBrowser.CrossBrowser.CrossBrows.closeBrowser(CrossBrows.java:81)
+

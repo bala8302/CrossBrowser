@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class ExcelRead {
 	
     //@SuppressWarnings("null")
-    @DataProvider(name="testDPCheck",parallel=true)
+    @DataProvider(name="testDPCheck",parallel=false)
 	public String[][] readExcel() throws Exception
 	{
 		String[][] data = null;

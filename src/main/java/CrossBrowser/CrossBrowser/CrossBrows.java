@@ -6,6 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -69,5 +73,16 @@ public class CrossBrows extends ExcelRead {
 		
 		System.out.println("Depends on groups");
 	}
+	
+	/*@AfterMethod
+	public void closeBrowser()
+	{
+		System.out.println("closing the browser");
+		driver.close();
+		//driver.quit();
+	}*/
+	
+	
+	
 
 }

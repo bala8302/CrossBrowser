@@ -7,4 +7,16 @@
       <class name="CrossBrowser.CrossBrowser.ExcelRead"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="CrossBrowser.CrossBrowser.CrossBrows">
+        <methods>
+          <include name="dependsongrp"/>
+          <include name="gettingBrowserName"/>
+          <include name="closeBrowser"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- CrossBrowser.CrossBrowser.CrossBrows -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
