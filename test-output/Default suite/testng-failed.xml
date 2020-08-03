@@ -3,7 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="CrossBrowser.CrossBrowser.CrossBrows"/>
+      <class name="CrossBrowser.CrossBrowser.ParallelRun"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="CrossBrowser.CrossBrowser.ParallelRun">
+        <methods>
+          <include name="invokebrowser" invocation-numbers="0 1 2 3 4"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- CrossBrowser.CrossBrowser.ParallelRun -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

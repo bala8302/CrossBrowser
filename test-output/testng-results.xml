@@ -1,17 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="630" started-at="2020-07-30T07:59:08Z" finished-at="2020-07-30T07:59:09Z">
+  <suite name="Suite" duration-ms="8384" started-at="2020-08-03T04:16:07Z" finished-at="2020-08-03T04:16:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="630" started-at="2020-07-30T07:59:08Z" finished-at="2020-07-30T07:59:09Z">
-      <class name="CrossBrowser.CrossBrowser.CrossBrows">
-        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@cc285f4]" name="gettingBrowserName" is-config="true" duration-ms="4" started-at="2020-07-30T13:29:09Z" finished-at="2020-07-30T13:29:09Z">
+    <test name="Test" duration-ms="8384" started-at="2020-08-03T04:16:07Z" finished-at="2020-08-03T04:16:15Z">
+      <class name="CrossBrowser.CrossBrowser.ParallelRun">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="beforetest" is-config="true" duration-ms="5" started-at="2020-08-03T09:46:07Z" finished-at="2020-08-03T09:46:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gettingBrowserName -->
-        <test-method status="PASS" signature="testDp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@cc285f4]" name="testDp" duration-ms="5" started-at="2020-07-30T13:29:09Z" data-provider="testDPCheck" finished-at="2020-07-30T13:29:09Z">
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="beforetest" is-config="true" duration-ms="5" started-at="2020-08-03T09:46:07Z" finished-at="2020-08-03T09:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="beforetest" is-config="true" duration-ms="5" started-at="2020-08-03T09:46:07Z" finished-at="2020-08-03T09:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="beforetest" is-config="true" duration-ms="5" started-at="2020-08-03T09:46:07Z" finished-at="2020-08-03T09:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="beforetest" is-config="true" duration-ms="5" started-at="2020-08-03T09:46:07Z" finished-at="2020-08-03T09:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="invokebrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="invokebrowser" duration-ms="6802" started-at="2020-08-03T09:46:07Z" data-provider="testDPCheck" finished-at="2020-08-03T09:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testName001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testName001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testName001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokebrowser -->
+        <test-method status="PASS" signature="invokebrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="invokebrowser" duration-ms="7911" started-at="2020-08-03T09:46:07Z" data-provider="testDPCheck" finished-at="2020-08-03T09:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testName002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testName002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testName002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokebrowser -->
+        <test-method status="PASS" signature="invokebrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="invokebrowser" duration-ms="7282" started-at="2020-08-03T09:46:07Z" data-provider="testDPCheck" finished-at="2020-08-03T09:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokebrowser -->
+        <test-method status="PASS" signature="invokebrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="invokebrowser" duration-ms="7335" started-at="2020-08-03T09:46:07Z" data-provider="testDPCheck" finished-at="2020-08-03T09:46:14Z">
           <params>
             <param index="0">
               <value>
@@ -31,8 +110,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDp -->
-        <test-method status="PASS" signature="testDp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@cc285f4]" name="testDp" duration-ms="2" started-at="2020-07-30T13:29:09Z" data-provider="testDPCheck" finished-at="2020-07-30T13:29:09Z">
+        </test-method> <!-- invokebrowser -->
+        <test-method status="PASS" signature="invokebrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.ParallelRun@8bd1b6a]" name="invokebrowser" duration-ms="7590" started-at="2020-08-03T09:46:07Z" data-provider="testDPCheck" finished-at="2020-08-03T09:46:15Z">
           <params>
             <param index="0">
               <value>
@@ -52,12 +131,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDp -->
-        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@cc285f4]" name="gettingBrowserName" is-config="true" duration-ms="0" started-at="2020-07-30T13:29:09Z" finished-at="2020-07-30T13:29:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gettingBrowserName -->
-      </class> <!-- CrossBrowser.CrossBrowser.CrossBrows -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- invokebrowser -->
+      </class> <!-- CrossBrowser.CrossBrowser.ParallelRun -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

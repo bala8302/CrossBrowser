@@ -13,8 +13,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CrossBrows extends ExcelRead {
 	
-	public String browsername;
-	WebDriver driver;
+	public static String browsername;
+	public static WebDriver driver;
 	
 	@BeforeMethod
 	public void gettingBrowserName()
@@ -24,7 +24,7 @@ public class CrossBrows extends ExcelRead {
 		System.out.println("browsername"+browsername);
 	}
 	
-	@Test(dataProvider="testDPCheck",dataProviderClass=ExcelRead.class,dependsOnGroups={"smoke"})
+	@Test(dataProvider="testDPCheck",dataProviderClass=ExcelRead.class)
 	public void invokeBrowser(String uname,String pwd,String address)
 	{
 		switch(browsername)

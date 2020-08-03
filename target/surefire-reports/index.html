@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,6 +108,21 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CrossBrowser.CrossBrowser.CrossBrows" hash-for-method="dependsongrp">dependsongrp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CrossBrowser.CrossBrowser.CrossBrows" hash-for-method="invokeBrowser(testName002, testName002, testName002)">invokeBrowser(testName002, testName002, testName002)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CrossBrowser.CrossBrowser.CrossBrows" hash-for-method="invokeBrowser(testName, testName, testName)">invokeBrowser(testName, testName, testName)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CrossBrowser.CrossBrowser.CrossBrows" hash-for-method="invokeBrowser(testName001, testName001, testName001)">invokeBrowser(testName001, testName001, testName001)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -154,6 +169,30 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="invokeBrowser(testName002, testName002, testName002)">
+                  </a> <!-- invokeBrowser(testName002, testName002, testName002) -->
+                  <span class="method-name">invokeBrowser</span>
+                  <span class="parameters">(testName002, testName002, testName002)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invokeBrowser(testName, testName, testName)">
+                  </a> <!-- invokeBrowser(testName, testName, testName) -->
+                  <span class="method-name">invokeBrowser</span>
+                  <span class="parameters">(testName, testName, testName)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invokeBrowser(testName001, testName001, testName001)">
+                  </a> <!-- invokeBrowser(testName001, testName001, testName001) -->
+                  <span class="method-name">invokeBrowser</span>
+                  <span class="parameters">(testName001, testName001, testName001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="invokeBrowser(Sen, sdd, Add2)">
                   </a> <!-- invokeBrowser(Sen, sdd, Add2) -->
                   <span class="method-name">invokeBrowser</span>
@@ -179,8 +218,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; data-provider-thread-count=&quot;5&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;CrossBrowser.CrossBrowser.CrossBrows&quot;/&gt;
       &lt;class name=&quot;CrossBrowser.CrossBrowser.ExcelRead&quot;/&gt;
@@ -231,28 +270,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'invokeBrowser')
 data.setCell(0, 2, 'CrossBrowser.CrossBrowser.CrossBrows')
-data.setCell(0, 3, 5600);
+data.setCell(0, 3, 4847);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'invokeBrowser')
 data.setCell(1, 2, 'CrossBrowser.CrossBrowser.CrossBrows')
-data.setCell(1, 3, 4456);
+data.setCell(1, 3, 4296);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'dependsongrp')
+data.setCell(2, 1, 'invokeBrowser')
 data.setCell(2, 2, 'CrossBrowser.CrossBrowser.CrossBrows')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 4155);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'dependsonMet')
+data.setCell(3, 1, 'invokeBrowser')
 data.setCell(3, 2, 'CrossBrowser.CrossBrowser.CrossBrows')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 4102);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'invokeBrowser')
+data.setCell(4, 2, 'CrossBrowser.CrossBrowser.CrossBrows')
+data.setCell(4, 3, 3988);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dependsonMet')
+data.setCell(5, 2, 'CrossBrowser.CrossBrowser.CrossBrows')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'dependsongrp')
+data.setCell(6, 2, 'CrossBrowser.CrossBrowser.CrossBrows')
+data.setCell(6, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -284,32 +335,56 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">dependsongrp</span>
-                <span class="method-start">12 ms</span>
+                <span class="method-name">dependsonMet</span>
+                <span class="method-start">7 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">gettingBrowserName</span>
-                <span class="method-start">14 ms</span>
+                <span class="method-start">8 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">dependsonMet</span>
-                <span class="method-start">14 ms</span>
+                <span class="method-name">dependsongrp</span>
+                <span class="method-start">8 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">gettingBrowserName</span>
-                <span class="method-start">536 ms</span>
+                <span class="method-start">474 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invokeBrowser(Bala, ddd, Add1)</span>
-                <span class="method-start">536 ms</span>
+                <span class="method-start">474 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">gettingBrowserName</span>
-                <span class="method-start">6136 ms</span>
+                <span class="method-start">5322 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invokeBrowser(Sen, sdd, Add2)</span>
-                <span class="method-start">6137 ms</span>
+                <span class="method-start">5322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettingBrowserName</span>
+                <span class="method-start">9478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invokeBrowser(testName, testName, testName)</span>
+                <span class="method-start">9478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettingBrowserName</span>
+                <span class="method-start">13581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invokeBrowser(testName001, testName001, testName001)</span>
+                <span class="method-start">13581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettingBrowserName</span>
+                <span class="method-start">17569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invokeBrowser(testName002, testName002, testName002)</span>
+                <span class="method-start">17569 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

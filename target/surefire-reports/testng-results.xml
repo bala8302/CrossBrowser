@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10603" started-at="2020-07-30T14:19:14Z" finished-at="2020-07-30T14:19:25Z">
+  <suite name="Suite" duration-ms="21878" started-at="2020-08-02T17:24:34Z" finished-at="2020-08-02T17:24:55Z">
     <groups>
       <group name="smoke">
-        <method signature="CrossBrows.dependsongrp()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6108b2d7]" name="dependsongrp" class="CrossBrowser.CrossBrowser.CrossBrows"/>
+        <method signature="CrossBrows.dependsongrp()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="dependsongrp" class="CrossBrowser.CrossBrowser.CrossBrows"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="10603" started-at="2020-07-30T14:19:14Z" finished-at="2020-07-30T14:19:25Z">
+    <test name="Test" duration-ms="21878" started-at="2020-08-02T17:24:34Z" finished-at="2020-08-02T17:24:55Z">
       <class name="CrossBrowser.CrossBrowser.CrossBrows">
-        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6108b2d7]" name="gettingBrowserName" is-config="true" duration-ms="12" started-at="2020-07-30T19:49:14Z" finished-at="2020-07-30T19:49:14Z">
+        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="gettingBrowserName" is-config="true" duration-ms="7" started-at="2020-08-02T22:54:34Z" finished-at="2020-08-02T22:54:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gettingBrowserName -->
-        <test-method status="PASS" signature="dependsongrp()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6108b2d7]" name="dependsongrp" duration-ms="1" started-at="2020-07-30T19:49:14Z" finished-at="2020-07-30T19:49:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dependsongrp -->
-        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6108b2d7]" name="gettingBrowserName" is-config="true" duration-ms="0" started-at="2020-07-30T19:49:14Z" finished-at="2020-07-30T19:49:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gettingBrowserName -->
-        <test-method status="PASS" signature="dependsonMet()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6108b2d7]" name="dependsonMet" duration-ms="0" started-at="2020-07-30T19:49:14Z" finished-at="2020-07-30T19:49:14Z">
+        <test-method status="PASS" signature="dependsonMet()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="dependsonMet" duration-ms="1" started-at="2020-08-02T22:54:34Z" finished-at="2020-08-02T22:54:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dependsonMet -->
-        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6108b2d7]" name="invokeBrowser" duration-ms="5600" depends-on-groups="smoke" started-at="2020-07-30T19:49:15Z" data-provider="testDPCheck" finished-at="2020-07-30T19:49:20Z">
+        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="gettingBrowserName" is-config="true" duration-ms="0" started-at="2020-08-02T22:54:34Z" finished-at="2020-08-02T22:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingBrowserName -->
+        <test-method status="PASS" signature="dependsongrp()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="dependsongrp" duration-ms="1" started-at="2020-08-02T22:54:34Z" finished-at="2020-08-02T22:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dependsongrp -->
+        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="gettingBrowserName" is-config="true" duration-ms="0" started-at="2020-08-02T22:54:34Z" finished-at="2020-08-02T22:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingBrowserName -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="invokeBrowser" duration-ms="4847" started-at="2020-08-02T22:54:34Z" data-provider="testDPCheck" finished-at="2020-08-02T22:54:39Z">
           <params>
             <param index="0">
               <value>
@@ -47,15 +51,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6108b2d7]" name="gettingBrowserName" is-config="true" duration-ms="0" started-at="2020-07-30T19:49:15Z" finished-at="2020-07-30T19:49:15Z">
+        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="gettingBrowserName" is-config="true" duration-ms="0" started-at="2020-08-02T22:54:39Z" finished-at="2020-08-02T22:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gettingBrowserName -->
-        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6108b2d7]" name="gettingBrowserName" is-config="true" duration-ms="1" started-at="2020-07-30T19:49:20Z" finished-at="2020-07-30T19:49:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gettingBrowserName -->
-        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6108b2d7]" name="invokeBrowser" duration-ms="4456" depends-on-groups="smoke" started-at="2020-07-30T19:49:20Z" data-provider="testDPCheck" finished-at="2020-07-30T19:49:25Z">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="invokeBrowser" duration-ms="4155" started-at="2020-08-02T22:54:39Z" data-provider="testDPCheck" finished-at="2020-08-02T22:54:43Z">
           <params>
             <param index="0">
               <value>
@@ -76,6 +76,81 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="invokeBrowser" duration-ms="4102" started-at="2020-08-02T22:54:43Z" data-provider="testDPCheck" finished-at="2020-08-02T22:54:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="gettingBrowserName" is-config="true" duration-ms="0" started-at="2020-08-02T22:54:43Z" finished-at="2020-08-02T22:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingBrowserName -->
+        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="gettingBrowserName" is-config="true" duration-ms="0" started-at="2020-08-02T22:54:47Z" finished-at="2020-08-02T22:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingBrowserName -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="invokeBrowser" duration-ms="3988" started-at="2020-08-02T22:54:47Z" data-provider="testDPCheck" finished-at="2020-08-02T22:54:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testName001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testName001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testName001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="invokeBrowser" duration-ms="4296" started-at="2020-08-02T22:54:51Z" data-provider="testDPCheck" finished-at="2020-08-02T22:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testName002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testName002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testName002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="gettingBrowserName()[pri:0, instance:CrossBrowser.CrossBrowser.CrossBrows@6bf256fa]" name="gettingBrowserName" is-config="true" duration-ms="0" started-at="2020-08-02T22:54:51Z" finished-at="2020-08-02T22:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingBrowserName -->
       </class> <!-- CrossBrowser.CrossBrowser.CrossBrows -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
