@@ -6,15 +6,4 @@
       <class name="CrossBrowser.CrossBrowser.ParallelRun"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="CrossBrowser.CrossBrowser.ParallelRun">
-        <methods>
-          <include name="invokebrowser"/>
-          <include name="beforetest"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- CrossBrowser.CrossBrowser.ParallelRun -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

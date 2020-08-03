@@ -28,16 +28,16 @@ public class ParallelRun extends ExcelRead {
 	{
 		System.out.println("uname"+uname);
 		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.navigate().to("https://www.google.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys(uname);
 	}
 	
-/*	@AfterMethod
+	@AfterMethod
 	public void afterMethod()
 	{
 		driver.close();
 	}
-*/
+
 }
